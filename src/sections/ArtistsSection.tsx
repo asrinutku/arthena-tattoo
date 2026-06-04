@@ -8,7 +8,6 @@ export function ArtistsSection() {
         <SectionHeading
           eyebrow="Sanatçılar"
           title="Her sanatçı kendi imzasını, sizin hikayenizle buluşturur."
-          text="Sanatçı kartları data dosyasından yönetilir; yeni ekip üyesi eklemek için artist listesine yeni bir kayıt eklemeniz yeterlidir."
         />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {studioData.artists.map((artist) => (

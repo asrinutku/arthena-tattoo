@@ -9,8 +9,7 @@ export function ServicesSection() {
         <SectionHeading
           align="center"
           eyebrow="Hizmetler"
-          title="Fikriniz hangi stilde olursa olsun, teknik planla baslar."
-          text="Dummy hizmet içerikleri data dosyasından gelir; yeni hizmet eklemek için yalnızca listeye yeni bir obje ekleyebilirsiniz."
+          title="Fikriniz hangi stilde olursa olsun, teknik planla başlar."
         />
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {studioData.services.map((service, index) => (

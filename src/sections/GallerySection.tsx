@@ -11,7 +11,7 @@ export function GallerySection() {
   return (
     <section className="section-shell bg-ink-900/55" id="galeri">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
-        <SectionHeading align="center" eyebrow="Galeri" title="Seçilmiş işler ve tasarım yönleri." text="Görseller placeholder olarak eklendi; assets klasörüne yeni dosya ekleyip data listesinden değiştirebilirsiniz." />
+        <SectionHeading align="center" eyebrow="Galeri" title="Seçilmiş işler ve tasarım yönleri." />
         <div className="mt-12 grid grid-cols-2 gap-3 md:grid-cols-3 lg:gap-5">
           {studioData.gallery.map((item) => (
             <button
